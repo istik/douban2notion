@@ -3,7 +3,7 @@ name: douban movie sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 */30 * *"
 jobs:
   sync:
     name: Sync
